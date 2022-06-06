@@ -1,4 +1,6 @@
-# 1.0 Quick start for ZCU102 Custom PYNQ v2.6 Image Building
+# 1 Quick start for ZCU102 Custom PYNQ v2.6 Image Building
+
+## 1.0 Preparation fo the directory
  * $ git clone https://github.com/Xilinx/PYNQ.git
  * $ git checkout -b image_v2.6.0
  * Replace Makefile with that at <PYNQ repository>/sdbuild/Makefile
