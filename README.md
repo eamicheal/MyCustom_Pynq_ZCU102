@@ -19,7 +19,7 @@
  * $ source <path-to-petalinux>/petalinux/2020.1/settings.sh
  * $ petalinux-util --webtalk off
 
-## 1.2 Building the Image for ZCU102 v2.6 using the prebuilt board-agnostic image
+## 1.3 Building the Image for ZCU102 v2.6 using the prebuilt board-agnostic image
  * Download the prebuilt board-agnostic image of aarch64 v2.6 for Zynq UltraScale+ from [HERE](https://bit.ly/pynq_rootfs_aarch64_v2_6).
  * Download the BSP for ZCU102 Zynq UltraScale+ from [XILINX_WEBSITE](https://www.xilinx.com/member/forms/download/xef.html?filename=xilinx-zcu102-v2020.1-final.bsp).
  * Move both downloaded files (bionic.aarch64.2.6.0_2020_10_19.img and xilinx-zcu102-v2020.1-final.bsp) to the target directory <PYNQ repository>/sdbuild/
