@@ -24,5 +24,5 @@
  * Download the BSP for ZCU102 Zynq UltraScale+ from [XILINX_WEBSITE](https://www.xilinx.com/member/forms/download/xef.html?filename=xilinx-zcu102-v2020.1-final.bsp).
  * Move both downloaded files (bionic.aarch64.2.6.0_2020_10_19.img and xilinx-zcu102-v2020.1-final.bsp) to the target directory <PYNQ repository>/sdbuild/
  * $ cd <PYNQ repository>/sdbuild/
- * Run `bash scripts/image_from_prebuilt.sh ZCU104 xilinx-zcu102-v2020.1-final.bsp aarch64 bionic.aarch64.2.6.0_2020_10_19.img` to recreate ZCU102 board image.
+ * Run `"bash scripts/image_from_prebuilt.sh ZCU104 xilinx-zcu102-v2020.1-final.bsp aarch64 bionic.aarch64.2.6.0_2020_10_19.img"` to recreate ZCU102 board image.
  * Wait for a couple of minutes or hour(s). Once completed, check for the ZCU102 image (ZCU102-2.6.0.img) at <PYNQ repository>/sdbuild/output.
