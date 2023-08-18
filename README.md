@@ -3,6 +3,7 @@
 ## 1.0 Preparation fo the directory
  * $ git clone https://github.com/Xilinx/PYNQ.git
  * $ git checkout -b image_v2.6.0
+ * $ git checkout 318258111f2ab0a2a73d06860f20e5a095b3cf08
  * Replace Makefile with that at <PYNQ repository>/sdbuild/Makefile
  * Replace setup_host.sh with that at <PYNQ repository>/sdbuild/scripts
  
